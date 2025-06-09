@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Cumpleaños Dora</title>
+
+  <!-- Fuente -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- Estilo CSS directo en el HTML -->
+  <style>
+    * {
+      transition: all 0.2s ease-in-out;
+    }
+
+    body {
+      background: #a89aff; /* fondo lila claro */
+      display: grid;
+      place-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      color: #333;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 8px;
+      height: auto;
+      width: 90vw;
+      max-width: 600px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1em;
+      overflow: hidden;
+    }
+
+    img.birthday {
+      width: 80%;
+      max-height: 300px;
+      border-radius: 10px;
+    }
+
+    .text {
+      padding: 1em;
+      color: #333;
+    }
+
+    .text h1 {
+      color: #ff69b4;
+    }
+
+    .muted {
+      opacity: 0.7;
+      font-style: italic;
+    }
+
+    .space {
+      height: 50px;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <img src="https://github.com/DzarelDeveloper/Img/blob/main/ulangtahun.jpg?raw=true" alt="birthday" class="birthday">
+    <div class="text">
+      <h1>¡Hola Hermanita!</h1>
+      <p>
+        Feliz cumpleaños hermanita, ya tienes 15 añitos. Espero la estes y vayas a pasar
+        muy pero muy bien, intenta relajarte en este dia tan especial, siempre estas
+        ocupada asi que te lo mereces, y mas aun porque este año entraste al COAR
+        estoy muy orgulloso de ti, siempre logras lo que te propones, y aunque
+        tuviste momentos dificiles siempre los superaste.<br><br>
+        Mirate ahora, estas en un punto increible, en el que estas muy bien contigo misma,
+        tu autoestima esta mejor que nunca, me alegra mucho eso, eres muy
+        inteligente y perseverante, te admiro mucho jeje. <br><br>
+        asi que con toda la alegria y sinceridad del mundo te digo:<br>
+        <strong>🥳🎂🥳 ¡¡¡FELIZ CUMPLEAÑOS!!! 🥳🎂🥳</strong>
+      </p>
+      <p class="muted">– Te quiere mucho, tu hermanito –</p>
+      <p class="muted">– Mathi –</p>
+    </div>
+  </div>
+
+  <div class="space"></div>
+
+  <audio controls autoplay>
+    <source src="audio.mp3" type="audio/mp3">
+    Tu navegador no soporta el elemento de audio.
+  </audio>
+
+  <!-- Script JS directamente en el HTML -->
+  <script>
+   
+  </script>
+</body>
+</html>
